@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+# elastikube
 
-You can use the [editor on GitHub](https://github.com/vjavle/elastikube/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Welcome to Elastik Kube
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The intent of this project to establish an opinionated framework of PaaS based Kubernetes platforms across multipe public clouds which will provide DR (Disaster Recovery) and/or HA (High Availability) capabilities as a framework.
 
-### Markdown
+## Motivation
+Over last few years, in cloud workload migrations, the trend has been to adopt Kubernetes than IaaS or PaaS workloads. 
+Why - mainly 2 reasons:
+1. IaaS costs - It's a no brainer that most box to box migrations , while simpley migration, can run billing into thousands. Hence PaaS or Containerization makes absolute sense.
+Level of portability (not having to lock in for PaaS)
+2. While public managed clouds like Azure, AWS and GCP do offer high levels of SLAs and uptime, few outages , either regional or occassionally global with each of these clouds has left level of concern about lock into one particular vendor. Therefore , moving away from PaaS, and use portable containerization orchstration platform, makes more sense. 
+What better platform than Kubernetes?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## General Architecture
 
-```markdown
-Syntax highlighted code block
+## Initial Scope
 
-# Header 1
-## Header 2
-### Header 3
+## Eventual Scope
 
-- Bulleted
-- List
+## Technologies Used
 
-1. Numbered
-2. List
+* [Terraform](https://www.terraform.io/) - IaC Provider
+* [CloudFlare](https://maven.apache.org/) - Global Load Balancing
 
-**Bold** and _Italic_ and `Code` text
+## Contributing
 
-[Link](url) and ![Image](src)
-```
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Authors
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vjavle/elastikube/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* **Vasant Javle**
 
-### Support or Contact
+## License
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
